@@ -1,8 +1,9 @@
 import express from 'express';
-import data from './data';
+import data from './data.js';
 
 const app = express();
 
+//test
 app.get('/api/products', (req, res) => {
   res.send(data.products);
 });
